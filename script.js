@@ -37,7 +37,7 @@ for (let call of callings) {
     const serviceName = card.querySelector(".card-title").innerText;
     const serviceNumber = card.querySelector(".contact-number").innerText;
 
-    alert(`ng to ${serviceName} at ${serviceNumber}`);
+    alert(`calling to ${serviceName} at ${serviceNumber}`);
 
     const localTime = new Date().toLocaleTimeString("en-US", { hour12: true });
 
